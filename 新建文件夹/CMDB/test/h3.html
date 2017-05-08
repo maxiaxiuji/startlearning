@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div id="ss">小明今天买了一个打飞机</div>
+
+
+<script>
+    setInterval(function () {
+        text=document.getElementById('ss').innerText;
+        a=text.charAt(0);
+        b=text.substring(1,text.length);
+        newtext=b+a;
+        document.getElementById('ss').innerText=newtext
+    },500)
+</script>
+
+
+
+
+</body>
+</html>
+
+
+
